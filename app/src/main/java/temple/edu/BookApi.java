@@ -16,10 +16,19 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
+/*
+    Name:- Meet A. Patel
+    Class:- CIS-3515
+    Date:- 03/29/2019
+    Lab:- Lab8
+ */
+
 public class BookApi {
+
+    //the site was given by the professor
     private static String dataUrl="https://kamorris.com/lab/audlib/booksearch.php";
     public  static String searchUrl="https://kamorris.com/lab/audlib/booksearch.php?search=";
-    public static ArrayList<Item> books=new ArrayList<>();
+    public static ArrayList<Item> books=new ArrayList<>();   //book
     public static ArrayList<Item> search=new ArrayList<>();
     public static void fetchBooks(Context context)
     {
