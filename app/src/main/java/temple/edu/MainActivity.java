@@ -31,6 +31,14 @@ import org.json.JSONObject;
 
 import java.util.List;
 
+/*
+    Name:-Meet A. Patel
+    Class:-03/29/2019
+    Lab:- Lab8
+    In this assignment my job was to use the same lab from 7 but this time had to implement
+    a real bookcase using the url that was provided by the professor.
+ */
+
 public class MainActivity extends AppCompatActivity implements BookListFragment.OnItemSelectedListener {
     private boolean isTwoPane = false;
     public static MyViewPagerAdapter viewPagerAdapter;
